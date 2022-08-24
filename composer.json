@@ -1,0 +1,27 @@
+{
+    "name": "dev_sajid/permission",
+    "description": "This is dynamic role & Permission package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DevSajid\\Permission\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dev-sajid007",
+            "email": "dev.sajid007@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevSajid\\Permission\\PermissionServiceProvider"
+            ]
+          
+        }
+    }
+}
