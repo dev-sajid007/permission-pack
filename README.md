@@ -10,16 +10,16 @@
 
 **How To Install**
 
-#####Step 1
+### Step 1
 
 >  composer require dev_sajid/permission
 
-#####Step 2
+### Step 2
 
 > php artisan migrate<br>
 > php artisan permission:seed
 
-#####Step 3
+### Step 3
 
 > php artisan vendor:publish
 
