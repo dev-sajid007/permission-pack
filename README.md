@@ -16,7 +16,7 @@
 
 #####Step 2
 
-> php artisan migrate_
+> php artisan migrate<br>
 > php artisan permission:seed
 
 #####Step 3
