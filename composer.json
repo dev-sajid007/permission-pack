@@ -18,7 +18,6 @@
     "require": {
         "php": "^7.3|^8.0",
         "intervention/image": "^2.7",
-        "laravel/ui": "^3.3"
     },
     "extra": {
         "laravel": {
