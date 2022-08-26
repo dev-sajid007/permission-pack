@@ -95,6 +95,7 @@ class RoleController extends Controller
         ]);
 
         // $role->permissions()->sync($request->input('permissions'));
+        $this->super_admin_permission();
         // //notification
         $notification = array(
             'message' =>'Role Updated',
